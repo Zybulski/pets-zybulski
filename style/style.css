@@ -1,8 +1,43 @@
 body {
     background-color: #ede9e0;
-    width: 1174px;
-    height: 4141px;
+    font-family: 'Fira Sans', sans-serif;
  } 
+ .container {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-wrap: nowrap;
+ }
+ .wrapper {
+  display: inline-block;
+  
+ }
+
+ .menu_item {
+  display: inline;
+ }
+ .ph_number a{
+  float: left;
+ }
+ .promo_content{
+  width: 300px;
+  font-size: 26px;
+ }
+ .promo_saying{
+  font-size: 13px;
+  text-transform: uppercase;
+
+ }
+ .promo {
+  align-content: center;
+ }
+ .about {
+  width: 1024px;
+  background-color: #510fad;
+  color: #ffffff;
+ }
  /*
  img{
  	float: left;
