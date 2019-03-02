@@ -1,21 +1,22 @@
 body {
     background-color: #ede9e0;
     font-family: 'Fira Sans', sans-serif;
-    min-width:1174px;
     font-size: 14px;
     padding: 10px;
  } 
- .container {
+ .wrapper {
   width: 1024px;
+ }
+ .container {
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
   display: -o-flex;
   display: flex;
-  margin: 0px 50px;
+  padding: 20px;
+  /*margin: 0px 50px;*/
  }
  .section_headline{
-  width: 1024px;
   text-align: center;
  }
  .nav_wrapper {
@@ -70,7 +71,6 @@ body {
   display: flex;
  }
  .about {
-  width: 1024px;
   background-color: #510fad;
   color: #ffffff;
   margin: 50px;
@@ -166,31 +166,10 @@ margin: 50px;
 
 }
 
-}
-.review{
-width: 1024px;
+.review {
 margin: 50px;
+}
 
-/*  width: 1024px;
-  margin: 50px;*/
-  /*display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: flex;
-  -webkit-flex-direction: row;
-  -moz-flex-direction: row;
-  -ms-flex-direction: row;
-  -o-flex-direction: row;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space
-  -between;*/
- }
- .review_wrapper{
-
-
- }
  .review_item_wrapper{
   display: -webkit-flex;
   display: -moz-flex;
@@ -198,7 +177,6 @@ margin: 50px;
   display: -o-flex;
   display: flex;
   justify-content: space-between;
-  width: 45%;
  }
 .reviewer_name{
   font-size: 16px;
@@ -214,7 +192,7 @@ margin: 50px;
 
 
 .review_item{
-/*  width: 50%;*/
+  width: 45%;
 
 }
 
@@ -234,7 +212,6 @@ margin: 50px;
 }
 
  .blog{
-  width: 1024px;
   background-color: #510fad;
   color: #ffffff;
   margin: 50px;
@@ -283,7 +260,6 @@ margin: 50px;
  }
  .contacts_container{
   margin: 50px;
-  width: 1024px;
 
  }
  .contacts{
@@ -313,8 +289,7 @@ width: 50%;
   color: inherit;
 
  }
- .footer_wrapper{
-  width: 1024px;
+ .footer_container{
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
