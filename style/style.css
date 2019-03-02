@@ -186,6 +186,7 @@ width: 100%;
   -ms-flex-direction: column;
   -o-flex-direction: column;
   flex-direction: column;
+  margin: 50px 0px;
  }
 
 .breed_type_wrapper{
@@ -202,6 +203,9 @@ width: 100%;
 }
 
 .breed_type_img{
+  width: 140px;
+  height: 140px;
+  padding-right: 20px;
 
 }
 
