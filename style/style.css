@@ -16,10 +16,18 @@ display: flex;
 -ms-flex-direction: column;
 -o-flex-direction: column;
 flex-direction: column;
-padding: 0 42px;
+padding: 40px 42px;
+ }
+ .logo {
+  width: 101px;
  }
 
  .header-container {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
   -webkit-flex-direction: row;
   -moz-flex-direction: row;
   -ms-flex-direction: row;
@@ -30,11 +38,13 @@ padding: 0 42px;
  }
 
  .section_headline{
-  text-align: center;
- }
-.about_headline  {
   text-align: left;
-}
+  margin-left: 365px;
+  padding: 50px 0px;
+ }
+
+
+
 
 
  .nav_wrapper {
@@ -49,11 +59,16 @@ padding: 0 42px;
   -o-flex-direction: row;
   flex-direction: row;
   text-decoration: none;
+  flex-wrap: nowrap;
+   margin-left: 365px;
  }
 
  .menu_item {
   display: inline;
   padding: 10px;
+ }
+ ul{
+  padding: 0;
  }
 
   .menu_item a{
@@ -77,9 +92,10 @@ padding: 0 42px;
  }
 
  .promo_content{
-
-  font-size: 18px;
-  align-content: center;
+  width: 500px;
+  margin-left: 365px;
+  font-size: 20px;
+  align-content: left;
  }
 
  .promo_saying{
@@ -93,6 +109,12 @@ padding: 0 42px;
 
  }
 
+.about_headline  {
+  margin-left: 365px;
+  /*padding: 40px 0px;*/
+}
+
+
  .about {
   background-color: #510fad;
   color: #ffffff;
@@ -100,22 +122,27 @@ padding: 0 42px;
  }
 
  .about_promo{
-margin: 0 auto;
-text-align: left;
+  margin-left: 365px;
+/*margin: 0 auto;*/
+
   }
 
   .about_promo p{
 max-width: 355px;
 width: 100%;
+text-align: left;
   }
 
  .about_image {
   width: 461px;
+  border: 0px solid #000;
+  border-radius: 15px;
 
  }
  
 
   .about_description{
+    padding: 20px 0px;
 
   }
 
@@ -135,7 +162,12 @@ width: 100%;
 .more_about a{
   color: #ffec00;
   text-decoration: none;
+  
 }
+.more_about {
+  padding: 20px;
+}
+
 
 .advantages{
   display: -webkit-flex;
@@ -144,17 +176,20 @@ width: 100%;
   display: -o-flex;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  width: 461px;
 }
 
 .advantages_list{
-  padding: 0;
+  padding: 10px;
+  margin-left: 20px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 .advantages_item {
-
+padding: 10px;
 }
 
 
@@ -164,7 +199,7 @@ width: 100%;
 
 
  .breeds_headline {
-  margin: 0 auto;
+ 
  }
 
  .breed_list{
@@ -220,15 +255,15 @@ width: 100%;
 }
 
 .breed_type_description{
-
+margin-bottom: 70px;
 }
 
 .view_pupies{
-  align-self: flex-end;
   text-decoration: none;
   text-transform: uppercase;
   color: #510fad;
   font-weight: bold;
+
 
 }
 
