@@ -3,14 +3,17 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 30px;
+  letter-spacing: 0.03em;
+
 } 
 
 a{
   font-family:'Fira Sans', sans-serif;
   font-size: 16px;
-  letter-spacing: 50;
+  letter-spacing: 0.05em;
   line-height: 40px;
   text-decoration: none;
+  font-weight: 500;
 }
 
 h1{
@@ -24,7 +27,7 @@ h2{
   font-family:'Fira Sans', sans-serif;
   font-weight: medium;
   font-size: 36px;
-  letter-spacing: 50;
+  letter-spacing: 0.05em;
   line-height: 40px;
  }
 
@@ -32,7 +35,7 @@ h3{
   font-family:'Fira Sans', sans-serif;
   font-weight: medium;
   font-size: 24px;
-  letter-spacing: 50;
+  letter-spacing: 0.05em;
   line-height: 40px;
  }
 
@@ -40,7 +43,7 @@ h3{
   font-family:'Fira Sans', sans-serif;
   font-weight: medium;
   font-size: 16px;
-  letter-spacing: 50;
+  letter-spacing: 0.05em;
   line-height: 30px;
   text-transform: uppercase;
 }
@@ -49,7 +52,7 @@ h3{
   font-family:'Roboto', sans-serif;
   font-weight: medium;
   font-size: 16px;
-  letter-spacing: 50;
+  letter-spacing: 0.05em;
   line-height: 30px;
 }
 
@@ -387,9 +390,9 @@ margin-bottom: 70px;
 }
 
 .blog_wrapper{
+  padding: 40px 42px;
   display: flex;
   justify-content: space-between;
-
 }
 
 .blog_item{
@@ -397,35 +400,72 @@ margin-bottom: 70px;
 
 }
 
-.blog_title h2{
-  font-size: 14px;
+.blog_about{
+flex-direction:column;
+width: 430px;
 }
 
-.blog_about{
-  flex-direction:column;
+.blog_about h2{
+  margin:40px 0px;
 }
- 
- .articles{
+.blog_description{
+  margin:0px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+.blog_about ul{
+padding: 0;
+margin:40px 0px;
+}
+
+.articles{
+  width: 460px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
 
  }
+
+.article{
+width: 220px;
+border: 0px solid #000;
+border-radius: 15px;
+background-color: #ffffff;
+color: #000000;
+
+ }
+
+.article p{
+  margin: 10px;
+}
+
 
 .social_icon{
   display: inline;
 
  }
 
-.article {
-   background-color: #ffffff;
-  color: #000000;
-  }
 
 .article img{
-
+  width: 220px;
+  height: 160px;
+border: 0px solid #000;
+border-radius:15px 15px 0px 0px;
  }
 
 .article h3{
   font-weight: normal;
   margin: 0;
+ }
+
+.article a{
+margin: 10px;
  }
 
 .contacts_container{
@@ -481,28 +521,28 @@ margin-bottom: 70px;
 }
 
 @font-face {
-font-family: "FiraSans-Medium"; 
+font-family: "FiraSans"; 
 src: url("../fonts/Fira_Sans/FiraSans-Regular.ttf") format("truetype"); 
 font-style: normal; 
 font-weight: normal; 
 }
 
 @font-face {
-font-family: "FiraSans-Medium"; 
+font-family: "FiraSans"; 
 src: url("../fonts/Fira_Sans/FiraSans-Medium.ttf") format("truetype"); 
 font-style: normal; 
 font-weight: medium; 
 }
 
 @font-face {
-font-family: "FiraSans-Medium"; 
+font-family: "FiraSans"; 
 src: url("../fonts/Fira_Sans/FiraSans-Bold.ttf") format("truetype"); 
 font-style: normal; 
 font-weight: bold; 
 }
 
 @font-face {
-font-family: "FiraSans-Medium"; 
+font-family: "FiraSans"; 
 src: url("../fonts/Fira_Sans/FiraSans-Italic.ttf") format("truetype"); 
 font-style: italic; 
 font-weight: normal; 
@@ -529,3 +569,11 @@ src: url("../fonts/Roboto/Roboto-Bold.ttf") format("truetype");
 font-style: normal; 
 font-weight: bold; 
 }
+
+@font-face {
+font-family: "Roboto"; 
+src: url("../fonts/Roboto/Roboto-Medium.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: medium; 
+}
+
