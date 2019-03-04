@@ -19,8 +19,17 @@ display: flex;
 flex-direction: column;
 padding: 40px 42px;
  }
+
  .logo {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -ms-align-self: auto;
   width: 101px;
+  height: 60px;
+  margin: 20 20px;
  }
 
  .header-container {
@@ -44,10 +53,6 @@ padding: 40px 42px;
   padding: 50px 0px;
  }
 
-
-
-
-
  .nav_wrapper {
   display: -webkit-flex;
   display: -moz-flex;
@@ -61,22 +66,31 @@ padding: 40px 42px;
   flex-direction: row;
   text-decoration: none;
   flex-wrap: nowrap;
-  margin-left: 365px;
-  justify-content: space-between;
+  margin-left: 265px;
+  justify-content: flex-start;
  }
+
+.main_menu{
+align-self: center;
+}
+
+.menu_list {
+  margin: 0;
+  align-self: center;
+
+}
+
 
  .menu_item {
   display: inline;
-  padding: 10px;
+  padding:0px 10px;
  }
- ul{
-  padding: 0;
- }
+
 
   .menu_item a{
   text-decoration: none;
   color: #000000;
-  font-weight: bold;
+  font-weight: ;
   font-size: 12px;
   }
 
@@ -85,12 +99,12 @@ padding: 40px 42px;
 }
 
  .ph_number a{
-  font-weight: bold;
+  font-weight: ;
   text-decoration: none;
-  padding: 10px;
+  /*padding: 10px;*/
   color: #510fad;
   margin: 5px;
-  font-weight: bold;
+  font-weight: ;
  }
 
  .promo_content{
@@ -103,7 +117,7 @@ padding: 40px 42px;
  .promo_saying{
   font-size: 10px;
   color: #510fad;
-  font-weight: bold;
+  font-weight: ;
   text-transform: uppercase;
  }
 
@@ -264,7 +278,7 @@ margin-bottom: 70px;
   text-decoration: none;
   text-transform: uppercase;
   color: #510fad;
-  font-weight: bold;
+  font-weight: ;
 
 
 }
@@ -285,7 +299,7 @@ margin-bottom: 70px;
 .reviewer_name{
   font-size: 16px;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: ;
   font-style: normal;
 }
 
@@ -314,7 +328,7 @@ margin-bottom: 70px;
 
 .more_review a{
   color: #510fad;
-  font-weight: bold;
+  font-weight: ;
   text-decoration: none;
 }
 
@@ -392,7 +406,7 @@ margin-bottom: 70px;
  }
 
  .contacts_sence p{
-  font-weight: bold;
+  font-weight: ;
  }
 
  .contacts_sence a{
@@ -420,6 +434,9 @@ margin-bottom: 70px;
 
  }
 
-
-text-transform: uppercase;
-*\
+@font-face {
+font-family: "FiraSans-Medium"; 
+src: url("../pets-zybulski\fonts\Fira_Sans\FiraSans-Medium.ttf") format("truetype"); 
+font-style: medium; 
+font-weight: medium; 
+}
