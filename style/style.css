@@ -1,5 +1,6 @@
 body {
   background-color: #ede9e0;
+  font-family: 'Roboto', sans-serif;
   font-family: 'Fira Sans', sans-serif;
   font-size: 14px;
  } 
@@ -33,7 +34,7 @@ padding: 40px 42px;
   -ms-flex-direction: row;
   -o-flex-direction: row;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
  }
 
@@ -60,7 +61,8 @@ padding: 40px 42px;
   flex-direction: row;
   text-decoration: none;
   flex-wrap: nowrap;
-   margin-left: 365px;
+  margin-left: 365px;
+  justify-content: space-between;
  }
 
  .menu_item {
