@@ -84,7 +84,7 @@ padding: 40px 42px;
   -o-flex-direction: row;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: flex-start;
+  justify-content: space-between;
  }
 
 .logo {
@@ -170,9 +170,10 @@ box-sizing: border-box;
 
 .promo_content{
   width: 500px;
-  margin-left: 365px;
+  margin-left: 315px;
   font-size: 20px;
   align-content: left;
+  padding: 150px 0px;
  }
 
 .promo_saying{
@@ -183,8 +184,13 @@ box-sizing: border-box;
  }
 
 .promo {
-
- }
+/*margin: 150px 0px;*/
+background-image: url(../img/dog.png);
+background-repeat: no-repeat;
+background-position: top left;
+margin-top:-140px ;
+margin-left: 50px;
+  }
 
 .about_headline  {
   margin-left: 365px;
