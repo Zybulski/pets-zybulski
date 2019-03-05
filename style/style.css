@@ -43,6 +43,74 @@ h3{
  padding: 70px 0px;
   
  }
+.icon{
+background: url(../img/sprite.png) no-repeat;
+width: 26px;
+height: 26px;
+display: inline-block;
+ }
+
+.vk_dark{
+  background-position: -26px 0px;
+  width: 26px;
+  height: 26px;
+}
+.vk_dark:hover{
+  background-position: -26px -52px;
+  width: 26px;
+  height: 26px;
+}
+.fb_dark{
+  background-position: -78px -26px;
+  width: 26px;
+  height: 26px;
+}
+.fb_dark:hover{
+  background-position: -52px -52px;
+  width: 26px;
+  height: 26px;
+}
+.inst_dark{
+  background-position: -52px -26px;
+  width: 26px;
+  height: 26px;
+}
+.inst_dark:hover{
+  background-position: -52px 0px;
+  width: 26px;
+  height: 26px; 
+}
+.vk_yelow{
+  background-position: 0px -26px;
+  width: 26px;
+  height: 26px;
+}
+.vk_yelow:hover{
+  background-position: -78px -52px;
+  width: 26px;
+  height: 26px; 
+}
+.fb_yelow{
+background-position: -78px 0px;
+width: 26px;
+height: 26px
+}
+.fb_yelow:hover{
+ background-position: 0px 0px;
+  width: 26px;
+  height: 26px; 
+}
+.inst_yelow{
+  background-position: 0px -52px;
+  width: 26px;
+  height: 26px;
+}
+
+.inst_yelow:hover{
+  background-position: -52px 0px;
+  width: 26px;
+  height: 26px;
+}
 
 .subtitle {
   font-family:'Fira Sans', sans-serif;
