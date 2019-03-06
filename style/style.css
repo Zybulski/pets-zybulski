@@ -414,7 +414,8 @@ margin: 0;
 
 
 .breeds{
-
+padding: 0;
+margin-top: 150px;
  }
 
 
@@ -491,8 +492,9 @@ margin-bottom: 70px;
 background-image: url(../img/cite.png);
 background-repeat: no-repeat;
 background-position: 5% 20%;
-/*margin-top:-140px ;*/
-/*margin-left: 50px;*/
+padding: 0;
+margin: 10  0px 0px;
+
 }
 
 blockquote{
