@@ -452,7 +452,8 @@ margin-top: 150px;
   -ms-flex-direction: column;
   -o-flex-direction: column;
   flex-direction: column;
-  margin: 50px 0px;
+  /*margin: 50px 0px;*/
+  margin-top: 50px;
  }
 
 .breed_type_wrapper{
@@ -482,6 +483,7 @@ margin-top: 150px;
   -o-flex-direction: column;
   flex-direction: column;
   justify-content: space-between;
+  width: 285px;
 
 }
 
@@ -499,9 +501,9 @@ margin-bottom: 70px;
 .review {
 background-image: url(../img/cite.png);
 background-repeat: no-repeat;
-background-position: 5% 20%;
+background-position: 5% 5%;
 padding: 0;
-margin: 10  0px 0px;
+margin:150px 0px;
 
 }
 
@@ -527,7 +529,7 @@ font-style: normal;
 
 
 .reviewer_name{
-  font-size: 20px;
+  font-size: 24px;
   text-decoration: none;
   font-weight: bold;
   font-style: normal;
@@ -535,7 +537,7 @@ font-style: normal;
 
 .pubtime{
   color: #737274;
-  font-weight: italic;
+  font-style: italic;
 }
 
 
@@ -560,6 +562,7 @@ box-shadow: 0px 0px 30px 1px #000000;
   text-align: left;
   display: block;
   color: #737274;
+  font-style: italic;
  }
 
 .more_review a{
@@ -606,6 +609,9 @@ color: #ffffff;
   box-sizing: border-box;
 }
 
+.article_cntnt_wrap{
+  margin-left: 5px;
+}
 
 .blog_about ul{
 padding: 0;
@@ -620,7 +626,6 @@ margin:40px 0px;
   display: -o-flex;
   display: flex;
   justify-content: space-between;
-
  }
 
 .article{
@@ -657,9 +662,11 @@ box-shadow: 0px 0px 30px 1px #000000;
  }
 
 .article p{
-  margin: 10px;
+  margin: 20px 10px;
+  padding-bottom: 40px;
   font-weight: 500;   
 }
+
 .arrows a{
   margin: 10px;
   font-weight: 500;
@@ -719,7 +726,7 @@ padding: 40px;
 
 .contacts_sence{
   width: 470px;
-
+  margin: 15px 0px;
  }
 
 .contacts_sence h4{
@@ -730,11 +737,13 @@ padding: 40px;
 
 .contacts_sence p{
   font-weight: ;
+  margin: 0;
  }
 
 .contacts_sence a{
   text-decoration: none;
   color: inherit;
+
  }
 
 .footer_container{
@@ -744,10 +753,15 @@ padding: 40px;
   display: -o-flex;
   display: flex;
   justify-content: space-between;
+  padding: 0px 42px;
  }
 
 .footer_menu_list li{
-  padding: 10px;
+  /*padding: 10px;*/
+}
+
+.footer_menu ul{
+  padding: 0px;
 }
 
 
@@ -762,7 +776,7 @@ padding: 40px;
 }
 
 .footer_social_icon{
-padding-right: 40px;
+/*padding-right: 40px;*/
 vertical-align: middle;
 }
 
