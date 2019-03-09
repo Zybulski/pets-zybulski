@@ -748,6 +748,7 @@ cite{
   display: flex;
   justify-content: space-between;
   padding: 0px 42px;
+  border-top: 2px solid #d5d1ca;
 }
 
 .footer_menu ul{
