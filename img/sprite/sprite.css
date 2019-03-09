@@ -18,13 +18,19 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 */
 .icon-arrow_next {
   background-image: url(sprite.png);
-  background-position: -20px -78px;
+  background-position: -40px -78px;
+  width: 20px;
+  height: 14px;
+}
+.icon-arrow_next_hover {
+  background-image: url(sprite.png);
+  background-position: 0px -78px;
   width: 20px;
   height: 14px;
 }
 .icon-arrow_next_yellow {
   background-image: url(sprite.png);
-  background-position: 0px -78px;
+  background-position: -20px -78px;
   width: 20px;
   height: 14px;
 }
@@ -34,19 +40,13 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   width: 2px;
   height: 20px;
 }
-.icon-insta_dark copy 2 {
-  background-image: url(sprite.png);
-  background-position: -26px -26px;
-  width: 26px;
-  height: 26px;
-}
-.icon-insta_dark copy {
+.icon-insta_dark {
   background-image: url(sprite.png);
   background-position: -52px 0px;
   width: 26px;
   height: 26px;
 }
-.icon-insta_dark {
+.icon-insta_dark_hover {
   background-image: url(sprite.png);
   background-position: -52px -26px;
   width: 26px;
@@ -58,15 +58,15 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   width: 26px;
   height: 26px;
 }
-.icon-social-icon-facebook copy 2 {
+.icon-insta_yelow_hover {
   background-image: url(sprite.png);
-  background-position: 0px 0px;
+  background-position: -26px -52px;
   width: 26px;
   height: 26px;
 }
-.icon-social-icon-facebook copy {
+.icon-social-icon-facebook yellow_hover {
   background-image: url(sprite.png);
-  background-position: -52px -52px;
+  background-position: 0px 0px;
   width: 26px;
   height: 26px;
 }
@@ -76,31 +76,37 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   width: 26px;
   height: 26px;
 }
-.icon-social-icon-facebookы {
+.icon-social-icon-facebook_hover {
   background-image: url(sprite.png);
   background-position: -78px -26px;
   width: 26px;
   height: 26px;
 }
-.icon-vk-social-logotype copy 2 {
+.icon-social-icon-facebook_yellow {
   background-image: url(sprite.png);
   background-position: -78px -52px;
   width: 26px;
   height: 26px;
 }
-.icon-vk-social-logotype copy {
+.icon-vk-social-logotype yellow {
   background-image: url(sprite.png);
-  background-position: -26px -52px;
+  background-position: -52px -52px;
   width: 26px;
   height: 26px;
 }
-.icon-vk-social-logotype yellow {
+.icon-vk-social-logotype {
+  background-image: url(sprite.png);
+  background-position: -26px -26px;
+  width: 26px;
+  height: 26px;
+}
+.icon-vk-social-logotype_hover {
   background-image: url(sprite.png);
   background-position: 0px -26px;
   width: 26px;
   height: 26px;
 }
-.icon-vk-social-logotype {
+.icon-vk-social-logotype_yellow_hover {
   background-image: url(sprite.png);
   background-position: -26px 0px;
   width: 26px;
