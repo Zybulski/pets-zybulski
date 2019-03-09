@@ -170,6 +170,7 @@ display: inline-block;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
+  margin: 10px 0px;
  }
 
 .logo {
@@ -203,7 +204,7 @@ display: inline-block;
 
 .section_headline{
   text-align: left;
-  margin-left: 365px;
+  margin-left: 361px;
  }
 
 
@@ -255,7 +256,7 @@ color: #510fad;
 
 .promo_content{
   width: 550px;
-  margin-left: 315px;
+  margin-left: 361px;
   font-size: 20px;
   align-content: left;
   padding: 150px 0px;
@@ -282,13 +283,14 @@ color: #510fad;
 .promo {
   background-image: url(../img/dog.png);
   background-repeat: no-repeat;
-  background-position: top left;
+  background-position: 4% 40%;
   margin-top:-140px ;
-  margin-left: 50px;
+  margin-bottom: 70px;
+  /*margin-left: 50px;*/
   }
 
 .about_headline  {
-margin-left: 365px;
+margin-left: 361px;
 color: #ffffff;
 }
 
@@ -324,11 +326,12 @@ color: #ffffff;
   background-repeat: no-repeat;
   -webkit-background-size: ;
   background-size: 100% 100%;
+  margin-top: -1px;
 }
 
 
 .about_promo{
-  margin-left: 365px;
+  margin-left: 361px;
   }
 
 .about_promo p{
@@ -428,10 +431,6 @@ padding: 0;
 margin-top: 150px;
  }
 
-
-.breeds_headline {
- 
- }
 
 .breed_list{
   display:flex;
