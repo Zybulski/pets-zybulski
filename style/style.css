@@ -25,7 +25,7 @@ h1{
 }
 
 h2{
-  font-family:'Fira Sans', sans-serif;
+  font-family:'Fira Sans', serif;
   font-weight: 500;
   font-size: 36px;
   letter-spacing: 0.05em;
@@ -730,62 +730,5 @@ padding: 40px;
 .footer_social_icon{
 padding-right: 40px;
 vertical-align: middle;
-}
-
-@font-face {
-font-family: "FiraSans"; 
-src: url("../fonts/Fira_Sans/FiraSans-Regular.ttf") format("truetype"); 
-font-style: normal; 
-font-weight: normal; 
-}
-
-@font-face {
-font-family: "FiraSans"; 
-src: url("../fonts/Fira_Sans/FiraSans-Medium.ttf") format("truetype"); 
-font-style: normal; 
-font-weight: medium; 
-}
-
-@font-face {
-font-family: "FiraSans"; 
-src: url("../fonts/Fira_Sans/FiraSans-Bold.ttf") format("truetype"); 
-font-style: normal; 
-font-weight: bold; 
-}
-
-@font-face {
-font-family: "FiraSans"; 
-src: url("../fonts/Fira_Sans/FiraSans-Italic.ttf") format("truetype"); 
-font-style: italic; 
-font-weight: normal; 
-}
-
-
-@font-face {
-font-family: "Roboto"; 
-src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype"); 
-font-style: normal; 
-font-weight: normal; 
-}
-
-@font-face {
-font-family: "Roboto"; 
-src: url("../fonts/Roboto/Roboto-Italic.ttf") format("truetype"); 
-font-style: italic; 
-font-weight: normal; 
-}
-
-@font-face {
-font-family: "Roboto"; 
-src: url("../fonts/Roboto/Roboto-Bold.ttf") format("truetype"); 
-font-style: normal; 
-font-weight: bold; 
-}
-
-@font-face {
-font-family: "Roboto"; 
-src: url("../fonts/Roboto/Roboto-Medium.ttf") format("truetype"); 
-font-style: normal; 
-font-weight: medium; 
 }
 
